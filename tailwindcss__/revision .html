@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Tailwind Layout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  
+</head>
+<body class="min-h-screen bg-gray-100">
+  
+  <div class="relative bg-cover bg-center h-96 bg-hero-pattern">
+    <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+      <div class="text-center px-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Welcome to Our Platform</h1>
+        <p class="text-xl text-white/90 max-w-2xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, doloribus.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mx-auto px-4 py-12">
+  
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Feature</div>
+          <h2 class="mt-2 text-2xl font-semibold text-gray-900">Responsive Design</h2>
+          <p class="mt-2 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Team</div>
+          <h2 class="mt-2 text-2xl font-semibold text-gray-900">Srijana Poudel</h2>
+          <p class="mt-2 text-gray-500">Frontend Developer with 5+ years of experience.</p>
+        </div>
+      </div>
+
+     
+      <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Project</div>
+          <h2 class="mt-2 text-2xl font-semibold text-gray-900">Ashmin GTM</h2>
+          <p class="mt-2 text-gray-500">Global Talent Management platform.</p>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="bg-white rounded-xl shadow-md p-8 mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Key Features</h2>
+      <div class="space-y-6">
+        <div class="flex items-start">
+          <div class="flex-shrink-0 bg-indigo-100 p-3 rounded-full">
+            <svg class="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </div>
+          <div class="ml-4">
+            <h3 class="text-lg font-medium text-gray-900">Modern Design</h3>
+            <p class="mt-1 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl shadow-md p-8 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Ready to get started?</h2>
+      <p class="text-indigo-100 mb-6 max-w-2xl mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, doloribus.</p>
+      <button class="bg-white text-indigo-600 font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors duration-300">
+        Contact Us
+      </button>
+    </div>
+  </div>
+
+
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Company</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-gray-300 transition-colors">About</a></li>
+            <li><a href="#" class="hover:text-gray-300 transition-colors">Careers</a></li>
+          </ul>
+        </div>
+      
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
